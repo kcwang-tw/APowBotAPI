@@ -1,0 +1,36 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://10.30.111.60/transform_string.asmx"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "internalTypeAccess": true,
+    "namespaceMappings": [
+      "*, CgmhNameStringConverter"
+    ],
+    "references": [
+      "Dapper, {Dapper, 2.1.35}",
+      "Microsoft.OpenApi, {Microsoft.OpenApi, 1.2.3}",
+      "Microsoft.Win32.SystemEvents, {Microsoft.Win32.SystemEvents, 6.0.0}",
+      "Oracle.ManagedDataAccess, {Oracle.ManagedDataAccess.Core, 3.21.150}",
+      "Swashbuckle.AspNetCore.Swagger, {Swashbuckle.AspNetCore.Swagger, 6.5.0}",
+      "Swashbuckle.AspNetCore.SwaggerGen, {Swashbuckle.AspNetCore.SwaggerGen, 6.5.0}",
+      "Swashbuckle.AspNetCore.SwaggerUI, {Swashbuckle.AspNetCore.SwaggerUI, 6.5.0}",
+      "System.Configuration.ConfigurationManager, {System.Configuration.ConfigurationManager, 6.0.0}",
+      "System.Diagnostics.PerformanceCounter, {System.Diagnostics.PerformanceCounter, 6.0.1}",
+      "System.DirectoryServices.Protocols, {System.DirectoryServices.Protocols, 6.0.2}",
+      "System.Drawing.Common, {System.Drawing.Common, 6.0.0}",
+      "System.Formats.Asn1, {System.Formats.Asn1, 6.0.0}",
+      "System.Security.AccessControl, {System.Security.AccessControl, 6.0.0}",
+      "System.Security.Cryptography.Pkcs, {System.Security.Cryptography.Pkcs, 6.0.4}",
+      "System.Security.Cryptography.ProtectedData, {System.Security.Cryptography.ProtectedData, 6.0.0}",
+      "System.Security.Permissions, {System.Security.Permissions, 6.0.0}",
+      "System.Windows.Extensions, {System.Windows.Extensions, 6.0.0}"
+    ],
+    "targetFramework": "net6.0",
+    "typeReuseMode": "All"
+  }
+}
