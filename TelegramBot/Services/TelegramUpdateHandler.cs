@@ -204,6 +204,20 @@ namespace TelegramBot.Services
                 return await SendTextMessageAsync(msg, reply);
             }
 
+            if (response.StatusCode == StatusCodes.Status404NotFound)
+            {
+                var reply =
+                    $"{userProfile.Name}\n" +
+                    $"{userProfile.OrganizationId} {userProfile.DepartmentId}\n" +
+                    $"{userProfile.DepartmentName} {userProfile.TitleName}\n" +
+                    $"年資：{userProfile.YearsOfExperience}\n" +
+                    $"Email：\n" +
+                    $"分機：\n" +
+                    $"公務機：";
+
+                return await SendTextMessageAsync(msg, reply);
+            }
+
             return await SendApiErrorMessage(msg, response.StatusCode, response.ErrorResponse);
         }
 
